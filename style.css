@@ -1,93 +1,79 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    min-height: 100vh;
-    background-color: #6F8695;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding: 2rem;
+  min-height: 100vh;
+  background-color: #6f8695;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2rem;
 }
 
 .bmi_container {
-    width: 100%;
-    max-width: 600px;
-    background-color: #1c448e;
-    padding: 3rem 2rem;
-    border-radius: 8px;
-    box-shadow: 5px 5px 15px rgba(223, 207, 207, 0.5);
-    font-weight: 900;
-    font-size: 1rem;
-    line-height: 2rem;
+  width: 100%;
+  max-width: 600px;
+  background-color: #1c448e;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(223, 207, 207, 0.5);
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 input {
-    border-radius: 5px;
-    font-size: 1rem;
-    border: none;
-    padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  padding: 0.5rem;
 }
 
 button {
-    font-size: 1.2rem;
-    padding: 0.7rem 1rem;
-    border-radius: 15px;
-    border: none;
-    color: #DBFE87;
-    background-color: #6F8695;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+  padding: 0.7rem 1rem;
+  border-radius: 15px;
+  border: none;
+  color: #dbfe87;
+  background-color: #6f8695;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #58727f;
+  background-color: #58727f;
 }
 
 .result,
 .result_bmi {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
-/* ✅ Responsive Media Query */
+.bmi_guide {
+  margin-top: 2rem;
+  font-weight: normal;
+}
+
+.bmi_guide h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-    .bmi_container {
-        padding: 2rem 1rem;
-        font-size: 0.9rem;
-        line-height: 1.6rem;
-    }
-
-    button {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .bmi_container {
-        padding: 1.5rem 1rem;
-        font-size: 0.85rem;
-    }
-
-    input {
-        font-size: 0.9rem;
-    }
-
-    button {
-        font-size: 0.9rem;
-        padding: 0.6rem;
-    }
-}
+  .bmi_container {
+    padding: 2rem 1r
