@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color:#6F8695;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.bmi_container{
+    max-width: 70%;
+    margin: 5rem 0;
+    padding: 10rem;
+    background-color: #1c448e;
+    line-height: 3rem;
+    padding-top: 5rem;
+    font-weight: 900;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(223, 207, 207, 0.5));
+}
+
+input{
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    padding: 5px;
+}
+
+button{
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 5px 0;
+    border-radius: 15px;
+    border-color: #1c448e;
+    color: #DBFE87;
+    background-color: #6F8695;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.result, .result_bmi{
+    margin-left: 5rem;
+}
